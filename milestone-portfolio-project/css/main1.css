@@ -1,0 +1,139 @@
+/* Base Styles */
+
+body {
+    background-color: #1f202b;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Classes and Grid*/
+
+.full-width {
+    margin: 0px;
+    width: 1200px;
+}
+
+.half-width {
+    width: 590px;
+    margin: 0 auto; 
+    height: 350px;
+    padding: 20px;
+}
+
+.half-width-a {
+    width: 425px;
+    margin: 0 auto; 
+    height: 475px;
+    padding: 20px 0px 0px 100px;
+}
+
+.half-width-b {
+    width: 575px;
+    margin: 0 auto; 
+    height: 500px;
+    padding: 0px 20px 0px 0px;
+}
+
+.third-width {
+    width: 360px;
+    margin: 0 auto;
+    padding: 0px 0px 0px 50px;
+    text-align: center;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}    
+
+/* Header */
+
+header {
+    height: 80px;
+}
+
+header h2 {
+    float: left;
+    padding: 0px 0px 0px 20px;
+}
+
+header ul {
+    list-style-type: none;
+  }
+  
+header li {
+    float: right;
+    list-style: none;
+    margin: 20px;
+    font-size: 23px;
+  }
+  
+/* Hero */
+
+#hero {
+    clear: none;
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+    background-image: url(../img/hero-background.png);
+    background-size: cover; 
+    text-align: left;    
+}
+
+#hero h1 {
+    margin: 225px 0px 0px 25px;
+    font-size: 60px;
+}
+
+/* Work */
+
+#work h1 {
+    text-align: center;
+    color: dodgerblue;
+}
+
+/* About */
+
+#about {
+    clear: both;
+    width: 100%;
+    height: 472px;
+    padding: 75px 0px 0px 150px;
+    background-image: url(../img/about-me.png);
+    background-size: cover; 
+    text-align: center;   
+}
+
+#about h1 {
+    color: dodgerblue;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    clear: both;
+}
+
+footer h1 {
+    color: dodgerblue;
+}
+
+/* Copyright */
+
+#copyright {
+    text-align: center;
+    padding: 50px 0px 10px 35px;
+}
